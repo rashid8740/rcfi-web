@@ -1,0 +1,6 @@
+@rcfi-scope rcfi-services-digital-health-governance;
+@config "./tailwind.late.config.js";
+
+/* Classes the page's scripts add at runtime. Loaded after page.css, matching the order
+   the Tailwind CDN produced them in the original HTML. */
+@tailwind utilities;

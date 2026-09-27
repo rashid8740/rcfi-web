@@ -1,0 +1,38 @@
+@rcfi-scope rcfi-variants-home-3;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-variants-home-3) body {
+  @apply bg-white text-slate-800 antialiased selection:bg-accent-lime selection:text-primary;
+}
+
+/* The design's own <style> block */
+@layer base {
+      html, body { margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+      body { overscroll-behavior: none; }
+    }
+    ::-webkit-scrollbar { display: none; }
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .animate-spin-slow {
+      animation: spin-slow 20s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: flex;
+      width: max-content;
+      animation: marquee 35s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+
+@tailwind utilities;

@@ -1,0 +1,22 @@
+@rcfi-scope rcfi-products-certysign;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-products-certysign) body {
+  @apply bg-surface font-sans text-on-surface antialiased;
+}
+
+/* The design's own <style> block */
+@layer base {
+      html, body { margin: 0; padding: 0; scroll-behavior: smooth; }
+      body { overscroll-behavior: none; }
+    }
+    .font-cursive { font-family: 'Caveat', cursive; }
+    .font-mono-code { font-family: 'JetBrains Mono', monospace; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-thumb { background: #b5ccc2; border-radius: 4px; }
+
+@tailwind utilities;

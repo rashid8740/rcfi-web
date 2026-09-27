@@ -1,0 +1,20 @@
+@rcfi-scope rcfi-academy-applied-data-ai;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-academy-applied-data-ai) body {
+  /* not defined by this page's theme, so they had no effect: bg-background font-body-md text-on-surface selection:bg-secondary-container selection:text-on-secondary-container */
+  @apply antialiased min-h-screen flex flex-col;
+}
+
+html:has(.rcfi-academy-applied-data-ai) {
+  scroll-behavior: smooth;
+}
+
+/* The design's own <style> block */
+@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+
+@tailwind utilities;

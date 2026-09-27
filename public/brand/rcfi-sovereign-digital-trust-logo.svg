@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <defs>
+    <linearGradient id="rcfiGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5D0"/>
+      <stop offset="100%" stop-color="#0077FF"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield Icon with Cyber Keyhole & Nodes -->
+  <g transform="translate(4, 6)">
+    <polygon points="26,2 48,10 48,34 26,50 4,34 4,10" fill="url(#shieldGrad)" stroke="url(#rcfiGlow)" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Circuit Lines inside shield -->
+    <path d="M14,24 L26,14 L38,24 L26,38 Z" fill="none" stroke="#00E5D0" stroke-width="1.8" stroke-dasharray="2,2"/>
+    <circle cx="26" cy="24" r="5" fill="url(#rcfiGlow)"/>
+    <circle cx="26" cy="14" r="2.5" fill="#38BDF8"/>
+    <circle cx="14" cy="24" r="2" fill="#38BDF8"/>
+    <circle cx="38" cy="24" r="2" fill="#38BDF8"/>
+    <circle cx="26" cy="38" r="2.5" fill="#38BDF8"/>
+    <path d="M26,29 L26,35" stroke="#00E5D0" stroke-width="2"/>
+  </g>
+  <!-- Typography -->
+  <text x="66" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="1">RCFI<tspan fill="#00E5D0">.</tspan></text>
+  <text x="66" y="47" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="9" fill="#94A3B8" letter-spacing="2.5">SOVEREIGN DIGITAL TRUST</text>
+  <!-- Institutional Tag Badge -->
+  <rect x="200" y="16" width="72" height="18" rx="9" fill="#00E5D0" fill-opacity="0.12" stroke="#00E5D0" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="236" y="28" font-family="system-ui, monospace" font-size="8" font-weight="700" fill="#00E5D0" text-anchor="middle" letter-spacing="0.5">KENYA ECSP</text>
+</svg>

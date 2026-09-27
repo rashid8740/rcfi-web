@@ -1,0 +1,19 @@
+@rcfi-scope rcfi-services;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-services) body {
+  @apply bg-[#f8f9fc] font-sans text-slate-800 antialiased min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white;
+}
+
+/* The design's own <style> block */
+@layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+    }
+    ::-webkit-scrollbar { display: none; }
+
+@tailwind utilities;

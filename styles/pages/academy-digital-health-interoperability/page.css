@@ -1,0 +1,19 @@
+@rcfi-scope rcfi-academy-digital-health-interoperability;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-academy-digital-health-interoperability) body {
+  @apply bg-background font-body-md text-on-surface antialiased;
+}
+
+html:has(.rcfi-academy-digital-health-interoperability) {
+  scroll-behavior: smooth;
+}
+
+/* The design's own <style> block */
+@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; } .dropdown-menu { opacity: 0; visibility: hidden; transform: translateY(6px); transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .nav-item:hover .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); } #mobile-menu-drawer.open { transform: translateX(0); } #mobile-backdrop.open { opacity: 1; pointer-events: auto; }
+
+@tailwind utilities;

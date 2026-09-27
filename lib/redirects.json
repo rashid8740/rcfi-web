@@ -1,0 +1,117 @@
+[
+  {
+    "source": "/index.html",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/products{/}?",
+    "destination": "/products/certysign/",
+    "permanent": true
+  },
+  {
+    "source": "/company{/}?",
+    "destination": "/about/",
+    "permanent": true
+  },
+  {
+    "source": "/company/about{/}?",
+    "destination": "/about/",
+    "permanent": true
+  },
+  {
+    "source": "/company/careers{/}?",
+    "destination": "/careers/",
+    "permanent": true
+  },
+  {
+    "source": "/company/contact{/}?",
+    "destination": "/contact/",
+    "permanent": true
+  },
+  {
+    "source": "/academy/overview{/}?",
+    "destination": "/academy/",
+    "permanent": true
+  },
+  {
+    "source": "/repository{/}?",
+    "destination": "/trust/",
+    "permanent": true
+  },
+  {
+    "source": "/trust-center{/}?",
+    "destination": "/trust/",
+    "permanent": true
+  },
+  {
+    "source": "/trust-center/repository{/}?",
+    "destination": "/trust/",
+    "permanent": true
+  },
+  {
+    "source": "/certificate-policy{/}?",
+    "destination": "/trust/",
+    "permanent": true
+  },
+  {
+    "source": "/cps{/}?",
+    "destination": "/trust/",
+    "permanent": true
+  },
+  {
+    "source": "/root-ca{/}?",
+    "destination": "/trust/",
+    "permanent": true
+  },
+  {
+    "source": "/privacy-policy{/}?",
+    "destination": "/privacy/",
+    "permanent": true
+  },
+  {
+    "source": "/dpa-compliance{/}?",
+    "destination": "/privacy/",
+    "permanent": true
+  },
+  {
+    "source": "/terms-of-service{/}?",
+    "destination": "/terms/",
+    "permanent": true
+  },
+  {
+    "source": "/insights/the-trust-layer{/}?",
+    "destination": "/insights/",
+    "permanent": true
+  },
+  {
+    "source": "/insights/impact-stories{/}?",
+    "destination": "/impact/",
+    "permanent": true
+  },
+  {
+    "source": "/insights/knowledge-hub{/}?",
+    "destination": "/insights/",
+    "permanent": true
+  },
+  {
+    "source": "/insights/sovereignty{/}?",
+    "destination": "/insights/",
+    "permanent": true
+  },
+  {
+    "source": "/knowledge{/}?",
+    "destination": "/insights/",
+    "permanent": true
+  },
+  {
+    "source": "/newsroom{/}?",
+    "destination": "/insights/",
+    "permanent": true
+  },
+  {
+    "source": "/book-meeting{/}?",
+    "destination": "https://meet.rcfi.co.ke/",
+    "permanent": false
+  }
+]

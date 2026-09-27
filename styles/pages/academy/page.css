@@ -1,0 +1,27 @@
+@rcfi-scope rcfi-academy;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-academy) body {
+  @apply bg-surface font-sans text-on-surface antialiased;
+}
+
+/* The design's own <style> block */
+@layer base {
+      html { scroll-behavior: smooth; }
+      body { -webkit-font-smoothing: antialiased; }
+    }
+    .grid-pattern {
+      background-size: 32px 32px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    }
+    .badge-glow {
+      box-shadow: 0 0 20px -2px rgba(110, 248, 187, 0.35);
+    }
+
+@tailwind utilities;

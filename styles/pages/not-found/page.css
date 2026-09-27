@@ -1,0 +1,26 @@
+@rcfi-scope rcfi-not-found;
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+
+/* The design's <body> classes */
+html:has(.rcfi-not-found) body {
+  @apply bg-surface text-on-surface antialiased min-h-screen flex flex-col justify-between;
+}
+
+/* The design's own <style> block */
+@layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9ff;
+        color: #0d1c2e;
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+    }
+
+@tailwind utilities;
