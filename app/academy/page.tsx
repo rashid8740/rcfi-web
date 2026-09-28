@@ -428,7 +428,9 @@ export default function AcademyPage() {
                   </span>
                 </div>
                 <h2 className="text-3xl sm:text-4xl lg:text-[42px] font-extrabold text-pine-900 tracking-tight leading-tight">
-                  {" Become the person who makes health systems talk. "}
+                  <Link href="/academy/digital-health-interoperability/">
+                    {" Become the person who makes health systems talk. "}
+                  </Link>
                 </h2>
                 <p className="text-slate-600 text-base mt-3 leading-relaxed">
                   {" The region’s first practitioner programme in health interoperability and governance — built on HL7 FHIR and OpenHIE architecture, taught through Kenya’s live regulatory reality: Digital Health Act 2023 and national certification. "}
@@ -699,7 +701,9 @@ export default function AcademyPage() {
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-pine-900 mb-1 group-hover:text-emerald-brand transition-colors">
-                    {" Digital Trust & Cyber Defence Programme "}
+                    <Link href="/academy/digital-trust-cyber/">
+                      {"Digital Trust & Cyber Defence Programme"}
+                    </Link>
                   </h3>
                   <p className="text-sm font-semibold text-emerald-brand mb-3">
                     {" Learn PKI from a licensed CA. Applied cryptography, certificate operations, e-KYC. "}
@@ -712,14 +716,14 @@ export default function AcademyPage() {
                   <span className="text-xs text-slate-500 font-medium">
                     8 Weeks • Hands-on CA Hardware Labs
                   </span>
-                  <a className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="#admissions-section">
+                  <Link className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="/academy/digital-trust-cyber/">
                     <span className="">
                       View Syllabus
                     </span>
                     <span className="material-symbols-outlined text-[15px]">
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Track 2: Applied Data & AI */}
@@ -734,7 +738,9 @@ export default function AcademyPage() {
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-pine-900 mb-1 group-hover:text-emerald-brand transition-colors">
-                    {" Applied Data & AI Programme "}
+                    <Link href="/academy/applied-data-ai/">
+                      {"Applied Data & AI Programme"}
+                    </Link>
                   </h3>
                   <p className="text-sm font-semibold text-emerald-brand mb-3">
                     {" AI that ships, not slides. Analytics, ML on African datasets, governance. "}
@@ -747,14 +753,14 @@ export default function AcademyPage() {
                   <span className="text-xs text-slate-500 font-medium">
                     10 Weeks • Production ML Pipelines
                   </span>
-                  <a className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="#admissions-section">
+                  <Link className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="/academy/applied-data-ai/">
                     <span className="">
                       View Syllabus
                     </span>
                     <span className="material-symbols-outlined text-[15px]">
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Track 3: Modern Engineering */}
@@ -769,7 +775,9 @@ export default function AcademyPage() {
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-pine-900 mb-1 group-hover:text-emerald-brand transition-colors">
-                    {" Modern Engineering Programme "}
+                    <Link href="/academy/modern-engineering/">
+                      Modern Engineering Programme
+                    </Link>
                   </h3>
                   <p className="text-sm font-semibold text-emerald-brand mb-3">
                     {" Engineer like it's production. Cloud-native, DevSecOps, API-first. "}
@@ -782,14 +790,14 @@ export default function AcademyPage() {
                   <span className="text-xs text-slate-500 font-medium">
                     {"12 Weeks • Cloud & Bare-Metal Architecture"}
                   </span>
-                  <a className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="#admissions-section">
+                  <Link className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="/academy/modern-engineering/">
                     <span className="">
                       View Syllabus
                     </span>
                     <span className="material-symbols-outlined text-[15px]">
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Track 4: Executive Briefings */}
@@ -804,7 +812,9 @@ export default function AcademyPage() {
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-pine-900 mb-1 group-hover:text-emerald-brand transition-colors">
-                    {" Executive Briefings "}
+                    <Link href="/academy/executive-briefings/">
+                      Executive Briefings
+                    </Link>
                   </h3>
                   <p className="text-sm font-semibold text-emerald-brand mb-3">
                     {" Half a day. Full clarity for boards, accounting officers, and executives. "}
@@ -817,14 +827,14 @@ export default function AcademyPage() {
                   <span className="text-xs text-slate-500 font-medium">
                     0.5 Days • Closed-Door Session in Nairobi
                   </span>
-                  <a className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="#admissions-section">
+                  <Link className="text-emerald-brand hover:text-pine-900 font-bold text-xs flex items-center gap-1 transition-colors" href="/academy/executive-briefings/">
                     <span className="">
                       Request Private Cohort
                     </span>
                     <span className="material-symbols-outlined text-[15px]">
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
