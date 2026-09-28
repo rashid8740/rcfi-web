@@ -4,6 +4,7 @@ import PageScripts from "@/components/PageScripts";
 import { scripts } from "./scripts";
 import "@/styles/pages/academy-applied-data-ai/page.css";
 import "@/styles/pages/academy-applied-data-ai/late.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Applied Data & AI Programme | RCFI Academy" };
 
@@ -50,7 +51,7 @@ export default function AcademyAppliedDataAiPage() {
           <div className="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-space-md">
             <div className="flex items-center gap-space-md">
               <Link className="flex items-center gap-space-sm group" data-path="home" href="/">
-                <img alt="Exact replica of the real RCFI logo as shown in the screenshot: A pixelated / tiled mosaic icon on the left with 4 rounded square tiles in forest green and teal forming a dynamic cluster or cross, followed by bold dark green sans-serif uppercase text 'RCFI', and below it in smaller clean sans-serif text 'Reprodrive Center for Innovation Limited'. Clean transparent or white background.. Brand logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
                 <div className="hidden sm:flex flex-col">
                   <span className="font-headline-sm text-headline-sm leading-none text-primary tracking-tight font-bold">
                     RCFI
@@ -71,6 +72,7 @@ export default function AcademyAppliedDataAiPage() {
               <Link aria-current="page" className="transition-colors py-space-sm flex items-center gap-1 text-primary font-title-md border-b-2 border-secondary font-semibold" data-path="academy" href="/academy/">
                 Academy
               </Link>
+              <PartnersNavMenu className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md py-space-sm flex items-center gap-1" />
               <Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md py-space-sm flex items-center gap-1" data-path="insights" href="/insights/">
                 Insights
               </Link>

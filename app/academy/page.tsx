@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@/styles/pages/academy/page.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "RCFI Academy" };
 
@@ -53,18 +54,18 @@ export default function AcademyPage() {
           <div className="max-w-7xl mx-auto h-full flex items-center justify-between">
             {/* Logo */}
             <Link className="flex items-center gap-3" href="/">
-              <img alt="RCFI Mosaic tile logo Reprodrive Center for Innovation" className="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Mosaic tile logo Reprodrive Center for Innovation" className="h-9 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               <div className="flex flex-col">
                 <span className="font-extrabold text-xl text-pine-900 tracking-tight leading-none">
                   RCFI
                 </span>
-                <span className="text-[10.5px] font-semibold uppercase tracking-wider text-slate-500 mt-0.5 hidden sm:block">
+                <span className="text-[10.5px] font-semibold uppercase tracking-wider text-slate-500 mt-0.5 hidden sm:block xl:hidden">
                   {" Reprodrive Center for Innovation "}
                 </span>
               </div>
             </Link>
             {/* Desktop Navigation Links with Academy Active */}
-            <nav className="hidden xl:flex items-center gap-1.5 text-[14px]">
+            <nav className="hidden xl:flex items-center gap-1.5 text-[14px] whitespace-nowrap">
               <Link className="px-3 py-1.5 text-slate-600 hover:text-pine-900 font-medium transition-colors rounded-md hover:bg-slate-50" href="/">
                 Home
               </Link>
@@ -81,9 +82,7 @@ export default function AcademyPage() {
                 Academy
               </Link>
               {" "}
-              <Link className="px-3 py-1.5 text-slate-600 hover:text-pine-900 font-medium transition-colors rounded-md hover:bg-slate-50" href="/ecosystem/">
-                Ecosystem
-              </Link>
+              <PartnersNavMenu className="px-3 py-1.5 text-slate-600 hover:text-pine-900 font-medium transition-colors rounded-md hover:bg-slate-50" />
               {" "}
               <Link className="px-3 py-1.5 text-slate-600 hover:text-pine-900 font-medium transition-colors rounded-md hover:bg-slate-50" href="/trust/">
                 Trust Center
@@ -98,7 +97,7 @@ export default function AcademyPage() {
               </Link>
             </nav>
             {/* Right Quick Actions */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 whitespace-nowrap">
               <Link className="hidden md:inline-flex items-center justify-center px-4 py-2 border border-slate-300 text-pine-900 rounded-lg text-xs font-bold hover:bg-slate-50 transition-colors" href="/verify/">
                 {" Verify a Document "}
               </Link>

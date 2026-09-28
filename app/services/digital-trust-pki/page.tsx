@@ -4,6 +4,7 @@ import PageScripts from "@/components/PageScripts";
 import { scripts } from "./scripts";
 import "@/styles/pages/services-digital-trust-pki/page.css";
 import "@/styles/pages/services-digital-trust-pki/late.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Digital Trust & PKI | RCFI Technology" };
 
@@ -53,7 +54,7 @@ export default function ServicesDigitalTrustPkiPage() {
           <div className="max-w-7xl mx-auto px-margin flex items-center justify-between h-20">
             <div className="flex items-center gap-space-xl">
               <Link className="flex items-center gap-space-sm" data-path="home" href="/">
-                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
                 <div className="hidden lg:flex flex-col text-left">
                   <span className="font-title-md text-title-md font-bold tracking-tight text-primary leading-none">
                     RCFI
@@ -218,6 +219,7 @@ export default function ServicesDigitalTrustPkiPage() {
                     </div>
                   </div>
                 </div>
+                <PartnersNavMenu className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" />
                 <div className="relative group">
                   <Link className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="insights" href="/insights/">
                     <span className="">
@@ -1239,7 +1241,7 @@ export default function ServicesDigitalTrustPkiPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
             <div className="flex flex-col gap-space-sm">
               <div className="flex items-center gap-2">
-                <img alt="Exact replica of the real RCFI logo as shown in the screenshot: A pixelated / tiled mosaic icon on the left with 4 rounded square tiles in forest green and teal forming a dynamic cluster or cross, followed by bold dark green sans-serif uppercase text 'RCFI', and below it in smaller clean sans-serif text 'Reprodrive Center for Innovation Limited'. Clean transparent or white background.. Brand logo" className="h-7 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-7 w-auto object-contain brightness-0 invert" src="/brand/rcfi-mark.svg" />
                 <span className="font-title-md text-title-md font-bold text-on-primary">
                   RCFI
                 </span>

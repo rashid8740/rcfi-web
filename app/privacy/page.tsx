@@ -78,7 +78,7 @@ export default function PrivacyPage() {
           <div className="max-w-7xl mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
             {/* Brand Logo */}
             <Link href="/" data-path="home" className="flex items-center gap-3 group">
-              <img src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" alt="RCFI Sovereign Digital Trust Logo" className="h-10 w-auto object-contain" />
+              <img src="/brand/rcfi-mark.svg" alt="RCFI Sovereign Digital Trust Logo" className="h-10 w-auto object-contain" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-[#003221] tracking-tight group-hover:text-[#006c49] transition-colors flex items-center gap-0.5">
                   {" RCFI"}
@@ -1220,7 +1220,7 @@ export default function PrivacyPage() {
             {/* Col 1: Brand & Licenses */}
             <div className="lg:col-span-1 flex flex-col gap-4">
               <div className="flex items-center gap-3">
-                <img src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" alt="RCFI Sovereign Digital Trust Logo" className="h-8 w-auto object-contain" />
+                <img src="/brand/rcfi-mark.svg" alt="RCFI Sovereign Digital Trust Logo" className="h-8 w-auto object-contain" />
                 <span className="text-xl font-bold text-white tracking-tight">
                   RCFI
                   <span className="text-[#4edea3]">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@/styles/pages/services-digital-cloud-engineering/page.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Digital & Cloud Engineering | RCFI Technology" };
 
@@ -56,7 +57,7 @@ export default function ServicesDigitalCloudEngineeringPage() {
         <nav className="bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]" data-active-classes="bg-primary-container text-on-primary">
           <div className="max-w-7xl mx-auto px-margin h-20 flex items-center justify-between">
             <Link className="flex items-center gap-space-sm" data-path="home" href="/">
-              <img alt="Exact replica of the real RCFI logo as shown in the screenshot: A pixelated / tiled mosaic icon on the left with 4 rounded square tiles in forest green and teal forming a dynamic cluster or cross, followed by bold dark green sans-serif uppercase text 'RCFI', and below it in smaller clean sans-serif text 'Reprodrive Center for Innovation Limited'. Clean transparent or white background.. Brand logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               <div className="hidden sm:flex flex-col">
                 <span className="font-title-md text-title-md leading-tight text-primary font-bold tracking-tight">
                   RCFI
@@ -130,6 +131,7 @@ export default function ServicesDigitalCloudEngineeringPage() {
                   </Link>
                 </div>
               </div>
+              <PartnersNavMenu className="text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" wrapperClassName="py-6" />
               <div className="relative group py-6">
                 <Link className="text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="insights" href="/insights/">
                   Insights

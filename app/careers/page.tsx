@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@/styles/pages/careers/page.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Careers & Attachment | RCFI Technology" };
 
@@ -53,7 +54,7 @@ export default function CareersPage() {
           <div className="max-w-7xl mx-auto h-full px-4 lg:px-8 flex items-center justify-between gap-6">
             {/* Logo */}
             <Link className="flex items-center gap-3 shrink-0" href="/">
-              <img alt="RCFI - Reprodrive Center for Innovation Limited" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI - Reprodrive Center for Innovation Limited" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               <div className="hidden xl:flex flex-col border-l border-outline-variant pl-3">
                 <span className="text-base text-primary tracking-tight font-bold leading-none">
                   RCFI
@@ -81,6 +82,7 @@ export default function CareersPage() {
               <Link className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" data-path="health-security" href="/health-security/">
                 Health Security
               </Link>
+              <PartnersNavMenu className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" />
               <Link className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="/about/">
                 About
               </Link>

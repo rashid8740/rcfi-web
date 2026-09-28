@@ -4,6 +4,7 @@ import PageScripts from "@/components/PageScripts";
 import { scripts } from "./scripts";
 import "@/styles/pages/contact/page.css";
 import "@/styles/pages/contact/late.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Contact | RCFI Technology" };
 
@@ -52,7 +53,7 @@ export default function ContactPage() {
         <div className="h-20 bg-surface-container-lowest">
           <div className="max-w-7xl mx-auto h-full px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter">
             <div className="flex items-center gap-space-md">
-              <img alt="Exact replica of the real RCFI logo as shown in the screenshot: A pixelated / tiled mosaic icon on the left with 4 rounded square tiles in forest green and teal forming a dynamic cluster or cross, followed by bold dark green sans-serif uppercase text 'RCFI', and below it in smaller clean sans-serif text 'Reprodrive Center for Innovation Limited'. Clean transparent or white background.. Brand logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               <div className="hidden xl:flex flex-col border-l border-outline-variant pl-space-sm">
                 <span className="font-headline-sm text-headline-sm text-primary tracking-tight font-bold leading-none">
                   RCFI
@@ -78,6 +79,7 @@ export default function ContactPage() {
               <Link className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" data-path="health-security" href="/health-security/">
                 Health Security
               </Link>
+              <PartnersNavMenu className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" />
               <Link aria-current="page" className="h-full flex items-center transition-colors text-primary font-title-md border-b-2 border-secondary" data-path="about" href="/about/">
                 About
               </Link>

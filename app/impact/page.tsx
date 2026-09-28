@@ -4,6 +4,7 @@ import PageScripts from "@/components/PageScripts";
 import { scripts } from "./scripts";
 import "@/styles/pages/impact/page.css";
 import "@/styles/pages/impact/late.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Impact Stories | RCFI Technology" };
 
@@ -74,7 +75,7 @@ export default function ImpactPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between gap-4">
             <div className="flex items-center gap-8">
               <Link className="flex items-center gap-3 group" href="/">
-                <img alt="RCFI Technology Logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Technology Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
                 <div className="hidden xl:flex flex-col">
                   <span className="font-title-md text-title-md text-primary tracking-tight leading-tight group-hover:text-secondary transition-colors">
                     RCFI Technology
@@ -265,6 +266,7 @@ export default function ImpactPage() {
                     </Link>
                   </div>
                 </div>
+                <PartnersNavMenu className="px-3 py-2 text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1" wrapperClassName="py-6" />
                 <div className="relative nav-item py-6">
                   <Link className="px-3 py-2 text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1" href="/insights/">
                     <span className="">
@@ -414,6 +416,31 @@ export default function ImpactPage() {
               </Link>
               <Link className="block text-body-md text-on-surface-variant" data-path="academy-modern-engineering" href="/academy/modern-engineering/">
                 Modern Engineering
+              </Link>
+            </div>
+          </div>
+          <div className="border-b border-surface-container-high pb-2">
+            <div className="font-label-md text-label-md font-bold text-primary mb-2">
+              {"Partners & Ecosystem"}
+            </div>
+            <div className="pl-3 space-y-2">
+              <Link className="block text-body-md text-on-surface-variant" data-path="ecosystem" href="/ecosystem/">
+                {"Ecosystem & Strategic Partners"}
+              </Link>
+              <Link className="block text-body-md text-on-surface-variant" data-path="partners" href="/partners/">
+                Ecosystem Overview
+              </Link>
+              <Link className="block text-body-md text-on-surface-variant" data-path="partners-konza" href="/partners/konza/">
+                Konza Technopolis
+              </Link>
+              <Link className="block text-body-md text-on-surface-variant" data-path="partners-dha" href="/partners/dha/">
+                Digital Health Agency (DHA)
+              </Link>
+              <Link className="block text-body-md text-on-surface-variant" data-path="partners-intellisoft" href="/partners/intellisoft/">
+                IntelliSOFT Consulting
+              </Link>
+              <Link className="block text-body-md text-on-surface-variant" data-path="partners-crown-interactive" href="/partners/crown-interactive/">
+                Crown Interactive
               </Link>
             </div>
           </div>

@@ -37,9 +37,9 @@ export default function VariantsCertysign3DarkPage() {
             </div>
           </div>
         </div>
-        <div className="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6">
+        <div className="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img alt={"Brand logo. - Primary color: #00d2c4\n- Font: plusJakartaSans\n- Mode: dark\n- Roundness: rounded-md\n"} className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VhHRfSnZ0eDlf_nHucafLxlITKvLohLcbCnq18g2C3JlmuTBQn8mtRFrY9rhjmtBOdNkCqinAw_YwzJIwxnmGT2OjAGONjzlZzEB-geMVPJe9GfHrKeQlTQPuW80XNpml08jMVzuhj1Ud6Y_oAatUEIK75zUPmypluqB-PPMgBVFgVggqKt6ydMqjLohLOjQ5te1eG2x-o9Va1vQOj_RA0EKEl4Ws9WSkXEmK__87pSsAPTMVS5KRQPwI" />
+            <img alt={"Brand logo. - Primary color: #00d2c4\n- Font: plusJakartaSans\n- Mode: dark\n- Roundness: rounded-md\n"} className="h-8 w-auto object-contain" src="/brand/rcfi-sovereign-mark.svg" />
             <div className="flex flex-col">
               <span className="font-headline-sm text-headline-sm text-on-surface leading-none tracking-tight">
                 RCFI
@@ -49,11 +49,11 @@ export default function VariantsCertysign3DarkPage() {
               </span>
             </div>
           </div>
-          <nav className="hidden xl:flex items-center gap-1 font-body-sm text-body-sm" data-active-classes="bg-surface-elevated text-primary font-bold rounded-lg">
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="home" href="/">
+          <nav className="hidden xl:flex items-center gap-1 font-body-sm text-body-sm whitespace-nowrap" data-active-classes="bg-surface-elevated text-primary font-bold rounded-lg">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="home" href="/">
               Home
             </Link>
-            <Link aria-current="page" className="px-3 py-2 transition-all relative flex items-center gap-1.5 bg-surface-elevated text-primary font-bold rounded-lg" data-path="certysign" href="/products/certysign/">
+            <Link aria-current="page" className="px-2.5 py-2 transition-all relative flex items-center gap-1.5 bg-surface-elevated text-primary font-bold rounded-lg" data-path="certysign" href="/products/certysign/">
               <span>
                 CertySign
               </span>
@@ -61,30 +61,30 @@ export default function VariantsCertysign3DarkPage() {
                 Flagship
               </span>
             </Link>
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="health-security" href="/health-security/">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="health-security" href="/health-security/">
               Health Security
             </Link>
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="elano" href="/products/elano/">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="elano" href="/products/elano/">
               Elano
             </Link>
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="prezio" href="/products/prezio/">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="prezio" href="/products/prezio/">
               Prezio
             </Link>
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about" href="/about/">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about" href="/about/">
               About
             </Link>
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="careers" href="/careers/">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="careers" href="/careers/">
               Careers
             </Link>
-            <Link className="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact" href="/contact/">
+            <Link className="px-2.5 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact" href="/contact/">
               Contact
             </Link>
           </nav>
-          <div className="flex items-center gap-3">
-            <Link className="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-lg font-body-sm text-body-sm font-semibold text-on-surface bg-surface-elevated hover:bg-surface-container-high transition-all" data-path="verify-document" href="/verify/">
+          <div className="flex items-center gap-3 whitespace-nowrap">
+            <Link className="hidden sm:inline-flex items-center justify-center px-3 py-2 rounded-lg font-body-sm text-body-sm font-semibold text-on-surface bg-surface-elevated hover:bg-surface-container-high transition-all" data-path="verify-document" href="/verify/">
               Verify Document
             </Link>
-            <a className="inline-flex items-center justify-center px-4 py-2 rounded-lg font-body-sm text-body-sm font-bold bg-primary-container text-on-primary-container hover:bg-primary transition-all shadow-[0_0_20px_rgba(0,210,196,0.3)]" data-path="book-a-meeting" href="https://meet.rcfi.co.ke/" target="_blank" rel="noopener noreferrer">
+            <a className="inline-flex items-center justify-center px-3 py-2 rounded-lg font-body-sm text-body-sm font-bold bg-primary-container text-on-primary-container hover:bg-primary transition-all shadow-[0_0_20px_rgba(0,210,196,0.3)]" data-path="book-a-meeting" href="https://meet.rcfi.co.ke/" target="_blank" rel="noopener noreferrer">
               Book a Meeting
             </a>
             <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
@@ -973,7 +973,7 @@ export default function VariantsCertysign3DarkPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
             <div className="lg:col-span-4 flex flex-col gap-5">
               <div className="flex items-center gap-3">
-                <img alt={"Brand logo. - Primary color: #00d2c4\n- Font: plusJakartaSans\n- Mode: dark\n- Roundness: rounded-md\n"} className="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VhHRfSnZ0eDlf_nHucafLxlITKvLohLcbCnq18g2C3JlmuTBQn8mtRFrY9rhjmtBOdNkCqinAw_YwzJIwxnmGT2OjAGONjzlZzEB-geMVPJe9GfHrKeQlTQPuW80XNpml08jMVzuhj1Ud6Y_oAatUEIK75zUPmypluqB-PPMgBVFgVggqKt6ydMqjLohLOjQ5te1eG2x-o9Va1vQOj_RA0EKEl4Ws9WSkXEmK__87pSsAPTMVS5KRQPwI" />
+                <img alt={"Brand logo. - Primary color: #00d2c4\n- Font: plusJakartaSans\n- Mode: dark\n- Roundness: rounded-md\n"} className="h-7 w-auto object-contain" src="/brand/rcfi-sovereign-mark.svg" />
                 <span className="font-headline-sm text-headline-sm text-on-surface">
                   RCFI
                 </span>

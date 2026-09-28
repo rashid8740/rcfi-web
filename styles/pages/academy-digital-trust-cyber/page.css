@@ -6,8 +6,7 @@
 
 /* The design's <body> classes */
 html:has(.rcfi-academy-digital-trust-cyber) body {
-  /* not defined by this page's theme, so they had no effect: bg-background font-body-md text-on-surface selection:bg-secondary-container selection:text-on-secondary-container */
-  @apply antialiased min-h-screen flex flex-col;
+  @apply bg-background font-body-md text-on-surface selection:bg-secondary-container selection:text-on-secondary-container antialiased min-h-screen flex flex-col;
 }
 
 html:has(.rcfi-academy-digital-trust-cyber) {

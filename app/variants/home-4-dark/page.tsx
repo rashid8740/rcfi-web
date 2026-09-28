@@ -40,7 +40,7 @@ export default function VariantsHome4DarkPage() {
           <div className="h-20 max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md">
             <div className="flex items-center gap-space-md">
               <Link className="flex items-center gap-space-sm group" data-path="home" href="/">
-                <img alt="RCFI Sovereign Digital Trust Logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VhHRfSnZ0eDlf_nHucafLxlITKvLohLcbCnq18g2C3JlmuTBQn8mtRFrY9rhjmtBOdNkCqinAw_YwzJIwxnmGT2OjAGONjzlZzEB-geMVPJe9GfHrKeQlTQPuW80XNpml08jMVzuhj1Ud6Y_oAatUEIK75zUPmypluqB-PPMgBVFgVggqKt6ydMqjLohLOjQ5te1eG2x-o9Va1vQOj_RA0EKEl4Ws9WSkXEmK__87pSsAPTMVS5KRQPwI" />
+                <img alt="RCFI Sovereign Digital Trust Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-sovereign-mark.svg" />
                 <div className="flex flex-col">
                   <span className="font-headline-sm text-headline-sm font-bold tracking-tight text-text-primary group-hover:text-primary transition-colors">
                     RCFI
@@ -1319,7 +1319,7 @@ export default function VariantsHome4DarkPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl">
             <div className="lg:col-span-1 flex flex-col gap-space-md">
               <div className="flex items-center gap-space-sm">
-                <img alt="RCFI Sovereign Digital Trust Logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VhHRfSnZ0eDlf_nHucafLxlITKvLohLcbCnq18g2C3JlmuTBQn8mtRFrY9rhjmtBOdNkCqinAw_YwzJIwxnmGT2OjAGONjzlZzEB-geMVPJe9GfHrKeQlTQPuW80XNpml08jMVzuhj1Ud6Y_oAatUEIK75zUPmypluqB-PPMgBVFgVggqKt6ydMqjLohLOjQ5te1eG2x-o9Va1vQOj_RA0EKEl4Ws9WSkXEmK__87pSsAPTMVS5KRQPwI" />
+                <img alt="RCFI Sovereign Digital Trust Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-sovereign-mark.svg" />
                 <span className="font-headline-sm text-headline-sm font-bold text-text-primary">
                   RCFI
                 </span>

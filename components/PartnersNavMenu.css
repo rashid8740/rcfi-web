@@ -1,0 +1,118 @@
+/* Dropdown for components/PartnersNavMenu.tsx. Colours follow the /partners/ mega-menu. */
+.rcfi-pe {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+}
+
+.rcfi-pe > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.rcfi-pe__chevron {
+  font-size: 16px !important;
+  line-height: 1;
+  transition: transform 0.2s;
+}
+
+.rcfi-pe:hover .rcfi-pe__chevron,
+.rcfi-pe:focus-within .rcfi-pe__chevron {
+  transform: rotate(180deg);
+}
+
+.rcfi-pe__panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 60;
+  width: 20rem;
+  padding-top: 0.25rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(0.5rem);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.rcfi-pe:hover .rcfi-pe__panel,
+.rcfi-pe:focus-within .rcfi-pe__panel {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+}
+
+.rcfi-pe__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  border: 1px solid rgba(192, 201, 194, 0.3);
+  box-shadow: 0 10px 25px -5px rgba(11, 74, 52, 0.12);
+  /* don't inherit the header's text styles */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: normal;
+}
+
+.rcfi-pe__item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.rcfi-pe__item:hover,
+.rcfi-pe__item:focus-visible {
+  background: #eff4ff;
+}
+
+.rcfi-pe__title {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #003221;
+}
+
+.rcfi-pe__item:hover .rcfi-pe__title {
+  color: #006c49;
+}
+
+.rcfi-pe__desc {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #404943;
+}
+
+/* Dark headers (e.g. /terms/) */
+.rcfi-pe--dark .rcfi-pe__card {
+  background: #111827;
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.rcfi-pe--dark .rcfi-pe__item:hover,
+.rcfi-pe--dark .rcfi-pe__item:focus-visible {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.rcfi-pe--dark .rcfi-pe__title {
+  color: #f8fafc;
+}
+
+.rcfi-pe--dark .rcfi-pe__item:hover .rcfi-pe__title {
+  color: #00e5d0;
+}
+
+.rcfi-pe--dark .rcfi-pe__desc {
+  color: #94a3b8;
+}

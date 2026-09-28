@@ -53,19 +53,19 @@ export default function PartnersPage() {
           <div className="max-w-7xl mx-auto px-margin flex items-center justify-between h-20">
             <div className="flex items-center gap-space-xl">
               <Link className="flex items-center gap-space-sm" data-path="home" href="/">
-                <img alt="Exact replica of the real RCFI logo: A pixelated mosaic icon on the left with 4 rounded square tiles in forest green and teal forming a dynamic cluster, followed by bold dark green sans-serif uppercase text 'RCFI', and below it in smaller clean sans-serif text 'Reprodrive Center for Innovation Limited'. Clean transparent background." className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
                 <div className="hidden lg:flex flex-col text-left">
                   <span className="font-title-md text-title-md font-bold tracking-tight text-primary leading-none">
                     RCFI
                   </span>
-                  <span className="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-normal mt-0.5">
+                  <span className="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-normal mt-0.5 xl:hidden">
                     Reprodrive Center for Innovation Limited
                   </span>
                 </div>
               </Link>
               <div className="hidden xl:flex items-center gap-space-lg font-body-md text-body-md">
                 <div className="relative group">
-                  <Link className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="services" href="/services/">
+                  <Link className="flex items-center gap-1 py-6 whitespace-nowrap text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="services" href="/services/">
                     <span>
                       Services
                     </span>
@@ -119,7 +119,7 @@ export default function PartnersPage() {
                   </div>
                 </div>
                 <div className="relative group">
-                  <Link className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="products" href="/products/certysign/">
+                  <Link className="flex items-center gap-1 py-6 whitespace-nowrap text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="products" href="/products/certysign/">
                     <span>
                       Products
                     </span>
@@ -157,7 +157,7 @@ export default function PartnersPage() {
                   </div>
                 </div>
                 <div className="relative group">
-                  <Link className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="academy" href="/academy/">
+                  <Link className="flex items-center gap-1 py-6 whitespace-nowrap text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="academy" href="/academy/">
                     <span>
                       Academy
                     </span>
@@ -195,7 +195,7 @@ export default function PartnersPage() {
                   </div>
                 </div>
                 <div className="relative group">
-                  <Link aria-current="page" className="flex items-center gap-1 py-6 text-primary font-bold border-b-2 border-secondary transition-colors" data-path="partners" href="/partners/">
+                  <Link aria-current="page" className="flex items-center gap-1 py-6 whitespace-nowrap text-primary font-bold border-b-2 border-secondary transition-colors" data-path="partners" href="/partners/">
                     <span>
                       {"Partners & Ecosystem"}
                     </span>
@@ -249,7 +249,7 @@ export default function PartnersPage() {
                   </div>
                 </div>
                 <div className="relative group">
-                  <Link className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="insights" href="/insights/">
+                  <Link className="flex items-center gap-1 py-6 whitespace-nowrap text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="insights" href="/insights/">
                     <span>
                       Insights
                     </span>
@@ -287,7 +287,7 @@ export default function PartnersPage() {
                   </div>
                 </div>
                 <div className="relative group">
-                  <Link className="flex items-center gap-1 py-6 text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="company" href="/about/">
+                  <Link className="flex items-center gap-1 py-6 whitespace-nowrap text-on-surface-variant hover:text-primary transition-colors font-medium" data-path="company" href="/about/">
                     <span>
                       Company
                     </span>
@@ -324,13 +324,13 @@ export default function PartnersPage() {
                     </div>
                   </div>
                 </div>
-                <Link className="px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold hover:bg-secondary-fixed-dim transition-colors shadow-sm" data-path="verify-a-document" href="/verify/">
+                <Link className="px-3.5 py-1.5 whitespace-nowrap rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold hover:bg-secondary-fixed-dim transition-colors shadow-sm" data-path="verify-a-document" href="/verify/">
                   Verify a Document
                 </Link>
               </div>
             </div>
             <div className="flex items-center gap-space-md">
-              <a className="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-all shadow-[0_1px_8px_rgba(0,0,0,0.04)] font-semibold" data-path="book-a-meeting" href="https://meet.rcfi.co.ke/" target="_blank" rel="noopener noreferrer">
+              <a className="hidden sm:inline-flex items-center justify-center whitespace-nowrap px-5 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-all shadow-[0_1px_8px_rgba(0,0,0,0.04)] font-semibold" data-path="book-a-meeting" href="https://meet.rcfi.co.ke/" target="_blank" rel="noopener noreferrer">
                 Book a Meeting
               </a>
               <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
@@ -1558,7 +1558,7 @@ export default function PartnersPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter">
             <div className="flex flex-col gap-space-sm">
               <div className="flex items-center gap-2">
-                <img alt="RCFI Logo" className="h-7 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-7 w-auto object-contain brightness-0 invert" src="/brand/rcfi-mark.svg" />
                 <span className="font-title-md text-title-md font-bold text-on-primary">
                   RCFI
                 </span>

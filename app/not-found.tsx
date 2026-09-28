@@ -61,7 +61,7 @@ export default function NotFound() {
           <div className="h-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
             {/* Logo */}
             <Link className="flex items-center gap-3 group" data-path="home" href="/">
-              <img alt="RCFI Reprodrive Center for Innovation" className="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Reprodrive Center for Innovation" className="h-10 w-auto object-contain" src="/brand/rcfi-mark.svg" />
             </Link>
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
@@ -321,7 +321,7 @@ export default function NotFound() {
             {/* Column 1: RCFI Identity & Licensing */}
             <div className="lg:col-span-1 flex flex-col gap-4">
               <div className="flex items-center gap-3">
-                <img alt="RCFI Logo" className="h-9 w-auto brightness-0 invert object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-9 w-auto brightness-0 invert object-contain" src="/brand/rcfi-mark.svg" />
               </div>
               <p className="font-body text-xs text-white/70 leading-relaxed">
                 {" Research Center for Digital Innovation. Kenya’s accredited root anchor and electronic certification service provider. "}

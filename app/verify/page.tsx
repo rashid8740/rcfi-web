@@ -4,6 +4,7 @@ import PageScripts from "@/components/PageScripts";
 import { scripts } from "./scripts";
 import "@/styles/pages/verify/page.css";
 import "@/styles/pages/verify/late.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Verify a Document | RCFI" };
 
@@ -46,7 +47,7 @@ export default function VerifyPage() {
         <div className="bg-surface-container-lowest/95 backdrop-blur-xl h-20 px-margin flex items-center justify-between border-b border-surface-container">
           <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
             <div className="flex items-center gap-space-md">
-              <img alt="RCFI Mosaic tile logo Reprodrive Center for Innovation Limited" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Mosaic tile logo Reprodrive Center for Innovation Limited" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               <div className="flex flex-col">
                 <span className="font-headline-sm text-headline-sm text-primary tracking-tight font-bold leading-none">
                   RCFI
@@ -69,9 +70,7 @@ export default function VerifyPage() {
               <Link className="px-space-sm py-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" data-path="academy" href="/academy/">
                 Academy
               </Link>
-              <Link className="px-space-sm py-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" data-path="ecosystem" href="/ecosystem/">
-                Ecosystem
-              </Link>
+              <PartnersNavMenu className="px-space-sm py-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" />
               <Link className="px-space-sm py-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" data-path="trust-center" href="/trust/">
                 Trust Center
               </Link>

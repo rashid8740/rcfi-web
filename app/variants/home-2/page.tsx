@@ -67,7 +67,7 @@ export default function VariantsHome2Page() {
           <div className="max-w-7xl mx-auto px-margin-mobile lg:px-margin h-16 flex items-center justify-between gap-space-md">
             {/* Logo */}
             <Link className="flex items-center gap-2 group py-1" href="/">
-              <img alt="RCFI Logo" className="h-9 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Logo" className="h-9 w-auto object-contain transition-transform group-hover:scale-105" src="/brand/rcfi-mark.svg" />
               <div className="hidden xl:flex flex-col text-left pl-1 border-l border-outline-variant/50 ml-1">
                 <span className="font-bold text-[14px] text-primary leading-tight tracking-tight">
                   RCFI
@@ -1647,7 +1647,7 @@ export default function VariantsHome2Page() {
             {/* Column 1: Brand & Identity */}
             <div className="lg:col-span-2 space-y-4">
               <div className="flex items-center gap-2">
-                <img alt="RCFI Logo" className="h-8 w-auto brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-8 w-auto brightness-0 invert" src="/brand/rcfi-mark.svg" />
                 <span className="font-bold text-lg text-white">
                   RCFI
                 </span>

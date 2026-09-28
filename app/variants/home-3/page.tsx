@@ -67,7 +67,7 @@ export default function VariantsHome3Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between gap-6">
           {/* Brand Logo */}
           <Link className="flex items-center gap-3 shrink-0 group" href="/">
-            <img alt="RCFI - Reprodrive Center for Innovation" className="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+            <img alt="RCFI - Reprodrive Center for Innovation" className="h-9 w-auto object-contain" src="/brand/rcfi-mark.svg" />
             <div className="hidden sm:block border-l border-slate-200 pl-3">
               <span className="block text-base font-extrabold tracking-tight text-primary leading-none group-hover:text-emerald-700 transition-colors">
                 RCFI

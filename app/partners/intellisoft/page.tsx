@@ -67,7 +67,7 @@ export default function PartnersIntellisoftPage() {
           <div className="max-w-7xl mx-auto px-margin h-16 flex items-center justify-between">
             <div className="flex items-center gap-space-lg">
               <Link className="flex items-center gap-3 py-1" data-path="home" href="/">
-                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
                 <div className="flex flex-col">
                   <span className="font-headline-sm text-headline-sm font-bold text-primary leading-none tracking-tight">
                     RCFI

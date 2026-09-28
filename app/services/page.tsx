@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@/styles/pages/services/page.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Services | RCFI Technology" };
 
@@ -255,6 +256,7 @@ export default function ServicesPage() {
                 </Link>
               </div>
             </div>
+            <PartnersNavMenu className="px-3 py-1.5 rounded-md hover:text-[#006c49] hover:bg-slate-50 transition-colors inline-flex items-center gap-1" wrapperClassName="py-4" />
             {/* 4. Insights Dropdown */}
             <div className="relative group py-4">
               <Link href="/insights/" data-path="insights" className="px-3 py-1.5 rounded-md hover:text-[#006c49] hover:bg-slate-50 transition-colors inline-flex items-center gap-1">
@@ -419,6 +421,37 @@ export default function ServicesPage() {
               </Link>
               <Link href="/academy/executive-briefings/" data-path="academy-executive" className="block text-xs text-slate-600 py-1 hover:text-[#006c49]">
                 Executive Briefings
+              </Link>
+            </div>
+          </div>
+          {/* Partners & Ecosystem Accordion */}
+          <div className="border-b border-slate-100 pb-3">
+            <button type="button" data-rcfi-onclick="document.getElementById('m-partners').classList.toggle('hidden');" className="w-full flex items-center justify-between text-sm font-bold text-slate-800 py-1.5 text-left">
+              <span className="">
+                {"Partners & Ecosystem"}
+              </span>
+              <span className="material-symbols-outlined text-lg text-slate-400">
+                expand_more
+              </span>
+            </button>
+            <div id="m-partners" className="hidden space-y-1.5 pt-2 pl-3">
+              <Link className="block text-xs text-slate-600 py-1 hover:text-[#006c49]" data-path="ecosystem" href="/ecosystem/">
+                {"Ecosystem & Strategic Partners"}
+              </Link>
+              <Link className="block text-xs text-slate-600 py-1 hover:text-[#006c49]" data-path="partners" href="/partners/">
+                Ecosystem Overview
+              </Link>
+              <Link className="block text-xs text-slate-600 py-1 hover:text-[#006c49]" data-path="partners-konza" href="/partners/konza/">
+                Konza Technopolis
+              </Link>
+              <Link className="block text-xs text-slate-600 py-1 hover:text-[#006c49]" data-path="partners-dha" href="/partners/dha/">
+                Digital Health Agency (DHA)
+              </Link>
+              <Link className="block text-xs text-slate-600 py-1 hover:text-[#006c49]" data-path="partners-intellisoft" href="/partners/intellisoft/">
+                IntelliSOFT Consulting
+              </Link>
+              <Link className="block text-xs text-slate-600 py-1 hover:text-[#006c49]" data-path="partners-crown-interactive" href="/partners/crown-interactive/">
+                Crown Interactive
               </Link>
             </div>
           </div>

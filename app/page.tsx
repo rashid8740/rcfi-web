@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@/styles/pages/home/page.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "RCFI Technology — Building the Trust Layer for Africa's Digital Economy" };
 
@@ -71,7 +72,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-margin-mobile lg:px-margin h-16 flex items-center justify-between gap-space-md">
             {/* Far Left: Logo (Links to Home /) */}
             <Link className="flex items-center gap-space-xs shrink-0 group py-1" href="/">
-              <img alt="RCFI Logo" className="h-9 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI Logo" className="h-9 w-auto object-contain transition-transform group-hover:scale-105" src="/brand/rcfi-mark.svg" />
               <div className="hidden xl:flex flex-col text-left pl-1">
                 <span className="font-headline-sm text-[16px] text-primary font-bold leading-tight tracking-tight">
                   RCFI
@@ -287,6 +288,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
+              <PartnersNavMenu className="flex items-center gap-1 text-[14px] font-label-md text-on-surface-variant hover:text-primary font-medium transition-colors py-2" />
               {/* 4. Insights Dropdown */}
               <div className="relative group h-full flex items-center">
                 <button className="flex items-center gap-1 text-[14px] font-label-md text-on-surface-variant group-hover:text-primary font-medium transition-colors py-2">
@@ -517,6 +519,36 @@ export default function HomePage() {
                 </Link>
                 <Link className="block py-1 hover:text-primary" href="/academy/executive-briefings/">
                   Executive Briefings
+                </Link>
+              </div>
+            </details>
+            <details className="group">
+              <summary className="flex items-center justify-between py-2 text-[15px] font-semibold text-primary cursor-pointer list-none">
+                <span className="">
+                  {"Partners & Ecosystem"}
+                </span>
+                <span className="material-symbols-outlined text-[18px] group-open:rotate-180 transition-transform">
+                  expand_more
+                </span>
+              </summary>
+              <div className="pl-space-md py-1 space-y-1.5 border-l-2 border-secondary-fixed/40 ml-1 text-[13px] text-on-surface-variant">
+                <Link className="block py-1 hover:text-primary" data-path="ecosystem" href="/ecosystem/">
+                  {"Ecosystem & Strategic Partners"}
+                </Link>
+                <Link className="block py-1 hover:text-primary" data-path="partners" href="/partners/">
+                  Ecosystem Overview
+                </Link>
+                <Link className="block py-1 hover:text-primary" data-path="partners-konza" href="/partners/konza/">
+                  Konza Technopolis
+                </Link>
+                <Link className="block py-1 hover:text-primary" data-path="partners-dha" href="/partners/dha/">
+                  Digital Health Agency (DHA)
+                </Link>
+                <Link className="block py-1 hover:text-primary" data-path="partners-intellisoft" href="/partners/intellisoft/">
+                  IntelliSOFT Consulting
+                </Link>
+                <Link className="block py-1 hover:text-primary" data-path="partners-crown-interactive" href="/partners/crown-interactive/">
+                  Crown Interactive
                 </Link>
               </div>
             </details>
@@ -1711,7 +1743,7 @@ export default function HomePage() {
             {/* Col 1: RCFI Logo, company summary, and CAK license (4 cols on lg) */}
             <div className="lg:col-span-4 space-y-space-md">
               <div className="flex items-center gap-space-xs">
-                <img alt="RCFI Logo" className="h-9 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-9 w-auto object-contain brightness-0 invert" src="/brand/rcfi-mark.svg" />
                 <div className="flex flex-col text-left pl-1">
                   <span className="font-headline-sm text-[16px] text-white font-bold leading-tight tracking-tight">
                     RCFI

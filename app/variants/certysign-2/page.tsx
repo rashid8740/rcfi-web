@@ -38,7 +38,7 @@ export default function VariantsCertysign2Page() {
           <div className="max-w-7xl mx-auto h-full flex items-center justify-between gap-space-md">
             <div className="flex items-center gap-space-md">
               <a className="flex items-center gap-space-sm" data-path="home" href="#">
-                <img alt="Exact replica of the real RCFI logo as shown in the screenshot: A pixelated / tiled mosaic icon on the left with 4 rounded square tiles in forest green and teal forming a dynamic cluster or cross, followed by bold dark green sans-serif uppercase text 'RCFI', and below it in smaller clean sans-serif text 'Reprodrive Center for Innovation Limited'. Clean transparent or white background.. Brand logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+                <img alt="RCFI Logo" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               </a>
             </div>
             <nav className="hidden lg:flex items-center gap-space-md h-full" data-active-classes="text-primary font-title-md relative after:content-[''] after:absolute after:bottom-[-26px] after:left-0 after:w-full after:h-0.5 after:bg-secondary">

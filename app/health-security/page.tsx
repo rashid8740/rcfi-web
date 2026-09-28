@@ -4,6 +4,7 @@ import PageScripts from "@/components/PageScripts";
 import { scripts } from "./scripts";
 import "@/styles/pages/health-security/page.css";
 import "@/styles/pages/health-security/late.css";
+import PartnersNavMenu from "@/components/PartnersNavMenu";
 
 export const metadata: Metadata = { title: "Health Security | RCFI Technology" };
 
@@ -40,7 +41,7 @@ export default function HealthSecurityPage() {
         <div className="h-20 bg-surface-container-lowest border-b border-outline-variant">
           <div className="max-w-7xl mx-auto px-margin-mobile lg:px-margin h-full flex items-center justify-between gap-gutter">
             <div className="flex items-center gap-space-md">
-              <img alt="RCFI - Reprodrive Center for Innovation Limited" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VctP8IWdv3qWMOpEX83BWo0MQRH0q5B-XkwPEy_oGlLJVWhX1QrF3C0-mxkekFzAWYSDVE5NEBGxjVgruoPgXCgmlAjP2sUtZNF0WP8D9TFV_H66CKFTw4KgSgzleYRPDmvxxOktYNwi_epvO2TKq0O9muOPWmkVdgOpVQ_gz1SspG4gyyEMAEmq1muOwYGjfNitru8XJRtwvltZVfbJTqpLg2nXUGFHPqbEuG-fZk1uywzpRNmM9rXbc" />
+              <img alt="RCFI - Reprodrive Center for Innovation Limited" className="h-8 w-auto object-contain" src="/brand/rcfi-mark.svg" />
               <div className="hidden xl:block">
                 <span className="block font-headline-sm text-headline-sm text-primary leading-none">
                   RCFI
@@ -66,6 +67,7 @@ export default function HealthSecurityPage() {
               <Link className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" data-path="health-security" href="/health-security/">
                 Health Security
               </Link>
+              <PartnersNavMenu className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" />
               <Link className="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="/about/">
                 About
               </Link>
